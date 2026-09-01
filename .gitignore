@@ -1,0 +1,35 @@
+# ===== 敏感 / 本地内容（不对外发布）=====
+
+# 业务示例与本地测试数据（含内部业务信息，仅保留目录骨架）
+assert/*
+!assert/.gitkeep
+
+# 生成的测试用例 Excel
+output/
+
+# 第三方依赖包（请通过 requirements.txt 从 PyPI 安装）
+libs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== SSH 密钥（严禁上传）=====
+*.pem
+id_rsa
+id_ed25519
+id_rsa.pub
+id_ed25519.pub
+
+# ===== 提示词（严禁上传）=====
+PROMPT.md
+SKILL.md
